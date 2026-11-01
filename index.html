@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Murrox LLC | Custom software for small businesses</title>
+<meta name="description" content="Murrox LLC builds custom web apps, mobile apps and back-office software for small businesses. Based in the Kansas City area.">
+<link rel="canonical" href="https://murrox.com/">
+<meta property="og:title" content="Murrox LLC | Custom software for small businesses">
+<meta property="og:description" content="Murrox LLC builds custom web apps, mobile apps and back-office software for small businesses. Based in the Kansas City area.">
+<meta property="og:url" content="https://murrox.com/">
+<meta property="og:type" content="website">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231f3a5f'/%3E%3Cpath d='M14 46V18h6l12 16 12-16h6v28h-7V30l-11 14-11-14v16z' fill='%23fff'/%3E%3C/svg%3E">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Murrox LLC",
+  "url": "https://murrox.com/",
+  "email": "info@murrox.com",
+  "areaServed": "Kansas City area",
+  "founder": [
+    {"@type": "Person", "name": "Garrett Drake"},
+    {"@type": "Person", "name": "Devin Mirfasihi"}
+  ]
+}
+</script>
+<style>
+  :root {
+    --bg: #ffffff;
+    --bg-alt: #f5f7fa;
+    --text: #1a2230;
+    --muted: #4f5b6b;
+    --line: #dde3ea;
+    --accent: #1f3a5f;
+    --accent-hover: #2c5282;
+    --on-accent: #ffffff;
+    --link: #1f4f8a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12161c;
+      --bg-alt: #181e26;
+      --text: #e6eaf0;
+      --muted: #a7b1bf;
+      --line: #2a323d;
+      --accent: #8fb3e0;
+      --accent-hover: #a9c5ea;
+      --on-accent: #12161c;
+      --link: #9cc0ec;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    -webkit-text-size-adjust: 100%;
+  }
+  a { color: var(--link); }
+  a:focus-visible, .btn:focus-visible { outline: 3px solid var(--accent-hover); outline-offset: 2px; }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+
+  /* Header */
+  header.top { border-bottom: 1px solid var(--line); }
+  header.top .wrap {
+    display: flex; align-items: center; justify-content: space-between;
+    flex-wrap: wrap; gap: 8px 24px; padding-top: 16px; padding-bottom: 16px;
+  }
+  .brand { font-weight: 700; font-size: 1.1rem; color: var(--text); text-decoration: none; letter-spacing: 0.01em; }
+  nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 20px; }
+  nav a { color: var(--muted); text-decoration: none; font-size: 0.95rem; }
+  nav a:hover { color: var(--text); text-decoration: underline; }
+
+  /* Hero */
+  .hero { padding: 72px 0 64px; }
+  .eyebrow { margin: 0 0 8px; font-weight: 600; color: var(--muted); font-size: 0.95rem; letter-spacing: 0.04em; text-transform: uppercase; }
+  h1 { margin: 0 0 16px; font-size: clamp(2rem, 5vw, 2.9rem); line-height: 1.15; letter-spacing: -0.01em; }
+  .lede { margin: 0 0 28px; max-width: 40em; font-size: 1.15rem; color: var(--muted); }
+  .btn {
+    display: inline-block; background: var(--accent); color: var(--on-accent);
+    padding: 12px 22px; border-radius: 6px; text-decoration: none; font-weight: 600;
+  }
+  .btn:hover { background: var(--accent-hover); }
+  .btn-outline { background: transparent; color: var(--accent); border: 2px solid var(--accent); padding: 10px 20px; }
+  .btn-outline:hover { background: var(--accent); color: var(--on-accent); }
+
+  /* Sections */
+  section { padding: 56px 0; border-top: 1px solid var(--line); }
+  section.alt { background: var(--bg-alt); }
+  h2 { margin: 0 0 24px; font-size: 1.6rem; line-height: 1.25; }
+  h3 { margin: 0 0 6px; font-size: 1.1rem; }
+  p { margin: 0 0 16px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 28px; }
+  .card { padding: 22px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); }
+  .card p { margin: 0; color: var(--muted); }
+  .how { margin-top: 32px; max-width: 44em; }
+  .how p { color: var(--muted); }
+  .narrow { max-width: 44em; }
+  .contact-email { font-size: 1.2rem; font-weight: 600; }
+
+  /* Footer */
+  footer { border-top: 1px solid var(--line); padding: 28px 0; color: var(--muted); font-size: 0.92rem; }
+  footer p { margin: 0; }
+  footer a { color: var(--muted); }
+
+  @media (max-width: 560px) {
+    body { font-size: 16px; }
+    .hero { padding: 48px 0 44px; }
+    section { padding: 44px 0; }
+  }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top">Murrox LLC</a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="#build">What we build</a></li>
+        <li><a href="#product">Go Mow Flow</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Murrox LLC</p>
+      <h1>Custom software for small businesses</h1>
+      <p class="lede">We build web apps, mobile apps and back-office software for small businesses, and we use AI to build faster. Based in the Kansas City area.</p>
+      <a class="btn" href="mailto:info@murrox.com">Email us</a>
+    </div>
+  </div>
+
+  <section id="build" class="alt">
+    <div class="wrap">
+      <h2>What we build</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Web apps</h3>
+          <p>Software your customers or your staff use in a browser, built around how your business actually works.</p>
+        </div>
+        <div class="card">
+          <h3>Mobile apps</h3>
+          <p>iPhone and Android apps for your customers or your team.</p>
+        </div>
+        <div class="card">
+          <h3>Back-office software</h3>
+          <p>The work behind the scenes, such as quotes, scheduling, billing and customer messages, brought into one system.</p>
+        </div>
+      </div>
+      <div class="how">
+        <h3>How we work</h3>
+        <p>We use AI throughout the build, so a small team can build and change software quickly. You work directly with the two people who own the company.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="product">
+    <div class="wrap narrow-wrap">
+      <h2>Our product: Go Mow Flow</h2>
+      <p class="narrow">Go Mow Flow is a back office for lawn care companies. It handles quotes, routes, crews, billing and customer messages in one place.</p>
+      <a class="btn btn-outline" href="https://gomowflow.com" rel="noopener">Visit gomowflow.com &rarr;</a>
+    </div>
+  </section>
+
+  <section id="about" class="alt">
+    <div class="wrap">
+      <h2>About</h2>
+      <p class="narrow">Murrox LLC is a software consulting and custom-build company owned by Garrett Drake and Devin Mirfasihi, based in the Kansas City area.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <h2>Contact</h2>
+      <p class="narrow">Have a project in mind? Email us. Both owners read every message.</p>
+      <p class="contact-email"><a href="mailto:info@murrox.com">info@murrox.com</a></p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>&copy; 2026 Murrox LLC &middot; Kansas City area &middot; <a href="mailto:info@murrox.com">info@murrox.com</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
